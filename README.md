@@ -2,6 +2,9 @@
 
 This Script asks your local fritz.box for the currently used IPv6 Prefix, then calculates your new IPv6, based on your previous IP and the new Prefix and then updates your local IP and Cloudflare Record .
 
+There may still be a bug with the prefix length and the length is currently not configurable.
+This will change in the next version, but you can also just change the values in the source code and then recompile.
+
 Main Function:
 ```bash
 # Remove old IPv6-Address
