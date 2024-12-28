@@ -57,7 +57,7 @@ fn main() {
     eprintln!("Suffix: {}", suffix);
 
     // Berechnung der neuen IPv6-Adresse
-    let new_ipv6 = combine_ipv6(prefix, suffix, prefix_length-1);
+    let new_ipv6 = combine_ipv6(prefix, suffix, prefix_length + 1);
     println!("{}", new_ipv6);
 }
 
